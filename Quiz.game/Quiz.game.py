@@ -13,33 +13,33 @@ print("Would you like to play the game?")
 
 playgame= input("Type Yes to continue and No to quit: ")
 
-if playgame.lower()!="Yes": #Boolean checker 
+if playgame.lower()!="yes": #Boolean checker 
     quit()
     
 
 print("Okay! Let's play :)")
 
-answer= input("What does CPU stand for? ") #Question 1
-if answer.lower == "central processing unit":
+answer= input("What does CPU stand for? ").lower() #Question 1
+if answer == "central processing unit":
     print("Correct!")  
 else:
     print("Incorrect :(")
     
 answer= input("What does PSU stand for? ") #Question 2
-if answer == "PSU":
+if answer.lower() == "psu":
     print("Correct!")
 else:
     print("Incorrect :(")
     
 answer= input("What does RAM stand for? ") #Question 3
-if answer == "random access memory":
+if answer.lower() == "random access memory":
     print("Correct!")   
 else:
     print("Incorrect :(")
     
 
 answer= input("What does GPU stand for? ") #Question 4
-if answer == "graphics processing unit":
+if answer.lower() == "graphics processing unit":
     print("Correct!")    
 else:
     print("Incorrect :(")
