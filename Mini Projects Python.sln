@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Quiz.game", "Quiz.game\Quiz.game.pyproj", "{2B19D3C4-2690-44F0-A670-E175838A1BBE}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Number Guessing Game", "..\Number.Guessing.Game\Number Guessing Game\Number Guessing Game.pyproj", "{42D5AC16-1BEC-4DAC-80B1-2A983DAF9D04}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,8 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{2B19D3C4-2690-44F0-A670-E175838A1BBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2B19D3C4-2690-44F0-A670-E175838A1BBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42D5AC16-1BEC-4DAC-80B1-2A983DAF9D04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42D5AC16-1BEC-4DAC-80B1-2A983DAF9D04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
