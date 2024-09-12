@@ -54,8 +54,6 @@ else:
 print(f"Your total score for the test is {score} and you got {score} questions correct")
 print(f"you got {(score/4)*100}% of the questions correct")
 print("Game over. Thank you taking the Quiz!!!")
-print("check1.2")
-    
 
 
     
